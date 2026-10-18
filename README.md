@@ -81,10 +81,10 @@ expected for a locally built `.exe`.
 **Ubuntu / Debian.**
 
 ```bash
-sudo apt install ./linux/dist/rds-downloader_0.5_all.deb
+sudo dpkg --install rds-downloader_0.5_all.deb
 ```
 
-Use `apt`, not bare `dpkg -i`, so the dependencies get resolved. Then launch **NCMRWF RDS
+Use dpkg , so the dependencies get resolved. Then launch **NCMRWF RDS
 Downloader** from the applications menu, or:
 
 ```bash
